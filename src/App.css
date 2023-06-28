@@ -92,7 +92,8 @@ h1, h2, p {
   border: none;
   cursor: pointer;
 }
-@media (width >= 1440px) {
+
+@media (min-width: 1199px) {
   .albumCard {
     width: 36%;
   }
