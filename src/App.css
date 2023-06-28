@@ -1,0 +1,99 @@
+#root {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+.title {
+  margin: 40px 0;
+}
+
+.totalAlbums {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.albumCard {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.albumCard .image {
+  width: 40%;
+}
+
+.albumCard .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+}
+
+.albumCard .infoAlbum {
+  width: 60%;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.albumCard .infoAlbum .artistName {
+  margin-bottom: 20px;
+}
+
+.albumCard .infoAlbum .artistName h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.albumCard .infoAlbum .artistName p {
+  color: rgb(150, 149, 149);
+  font-style: italic;
+}
+
+.albumCard .infoAlbum .albumName {
+  margin-bottom: 20px;
+}
+
+.albumCard .infoAlbum .albumName h2 {
+  font-size: 18px;
+  color: rgb(86, 86, 86);
+  font-weight: 400;
+}
+
+.albumCard .infoAlbum .albumName p {
+  font-size: 14px;
+  color: rgb(150, 149, 149);
+}
+
+.albumCard .infoAlbum .genderAndLike {
+  display: flex;
+  justify-content: space-between;
+}
+
+.albumCard .infoAlbum .genderAndLike p {
+  background-color: pink;
+  padding: 7px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.albumCard .infoAlbum .genderAndLike button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+@media (width >= 1440px) {
+  .albumCard {
+    width: 36%;
+  }
+}
