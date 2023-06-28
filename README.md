@@ -10,7 +10,6 @@ This is a solution to the Album Of Songs project of the Make It Real course.
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -26,6 +25,15 @@ Users should be able to:
 - Choose what song like it!!!
 
 ### Screenshot
+
+#### Mobile view:
+
+https://github.com/Camilo-Suarez98/album-of-songs/assets/68169750/a5ba363c-c0e5-444a-b40f-194772664d4d
+
+
+#### Desktop view:
+
+https://github.com/Camilo-Suarez98/album-of-songs/assets/68169750/7d767f08-d242-49f9-8afd-ab5e32786059
 
 
 ## My process
